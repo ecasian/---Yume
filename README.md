@@ -11,4 +11,4 @@ La materia nos interesa a ambos, aunque hemos tenido diferentes enfoques a lo la
 
 ## Enlace_carpetas_personales
 - [Esteban Humberto Casián Meneses](./casian-menenses)
-- [Eli Sebastián Moreno Razo](...)
+- [Eli Sebastián Moreno Razo](./moreno-razo)
