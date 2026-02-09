@@ -10,3 +10,5 @@ Como presentación me gustaría mencionar que no somos el típico equipo como se
 La materia nos interesa a ambos, aunque hemos tenido diferentes enfoques a lo largo de estos 5 semestres pasados. - **Moreno Razo** ya desarrolló antes un videojuego estando en el campus Manzanillo y otro para la materia de (NO LA RECUERDO, PONLA AQUÍ @ELIGEI). - **Casián Meneses** ha llevado a cabo desarrollo web comercial y desarrollo de una API para la captura de datos específicos de un POS (SoftRestaurant).
 
 ## Enlace_carpetas_personales
+- [Esteban Humberto Casián Meneses](./casian-menenses)
+- [Eli Sebastián Moreno Razo](...)
