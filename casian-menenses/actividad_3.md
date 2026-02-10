@@ -1,5 +1,5 @@
 # Seleccion de Videojuego
-En lo personal, me he enganchado con la saga Metro 2033, pero sin duda el primero (**Metro REDUX**)fue el antes y después para mí.
+En lo personal, me he enganchado con la saga Metro 2033, pero sin duda el primero (**Metro REDUX**) fue el antes y después para mí.
 
 ## ¿Cómo se clasifica el juego?
 De manera tradicional y general, logré apreciar tres géneros:
@@ -12,12 +12,12 @@ Pero tras las lecturas de los artículos aprendí que esto no es todo, ya que el
 
 ## ¿Qué mezcla o rompe géneros?
 De los géneros tradicionales mezcla: 
-- Combate con armas de fuego en tiempo real
-- Escasez de recursos
-- Enemigos letales
-- Ambiente hostil
-- Tensión constante
-- Historia lineal con una carga narrativa y emocional muy fuerte
+- Combate con armas de fuego en tiempo real.
+- Escasez de recursos.
+- Enemigos letales.
+- Ambiente hostil.
+- Tensión constante.
+- Historia lineal con una carga narrativa y emocional muy fuerte.
 - Niveles semiabiertos con toma de decisiones para el desarrollo de la partida; se puede jugar priorizando el sigilo y la observación, o a modo rampage.
 
 ## ¿Qué reglas y acciones estructuran el juego?
