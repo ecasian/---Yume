@@ -4,13 +4,12 @@ Este es un survival horror 2D ambientado en la Facultad de Telemática tras un b
 El jugador despierta sin memoria y debe explorar el campus mientras reconstruye lo ocurrido, gestiona su desgaste físico y mental, y toma decisiones que afectan el destino de la partida.
 El mapa se desbloquea progresivamente. Y al iniciar, el jugador elige entre tres personajes iniciales con atributos distintos, lo que modifica la experiencia de juego.
 
-# Describe brevemente:
-      ## Mecánica principal
+## Mecánica principal
 - Sobrevivir gestionando salud física, estamina y salud mental mientras se explora un entorno cerrado hostil y se toman decisiones con consecuencias.
 El verbo central es: **gestionar**.
 La supervivencia no depende solo del combate, sino del equilibrio entre cuerpo, mente y decisiones estratégicas.
       
-      ## Objetivo del jugador
+## Objetivo del jugador
 Escapar del campus activando un protocolo de evacuación o alcanzando una salida segura, mientras:
 - Mantiene su salud física.
 - Controla su estamina.
@@ -19,7 +18,7 @@ Escapar del campus activando un protocolo de evacuación o alcanzando una salida
 - Descubre fragmentos de memoria sobre el origen del brote.
 - El objetivo es claro: sobrevivir y salir del campus.
       
-      ## Reglas básicas
+## Reglas básicas
 - Si la salud llega a cero → muerte permanente.
 - La estamina se consume al correr, atacar o forzar acciones físicas.
 - Sin estamina no es posible huir eficazmente.
@@ -66,6 +65,6 @@ Esto se genera porque:
 - Sensación de agencia real.
 Las mecánicas generan dinámicas de gestión y riesgo; estas dinámicas producen emociones coherentes con el survival horror psicológico.
 
-**REFLEXIÓN FINAL**
+#**REFLEXIÓN FINAL**
 La parte que mejoraría primero sería el sistema de salud mental, asegurando que las distorsiones generen incertidumbre sin volverse frustración arbitraria.
 Para fortalecer la experiencia, definiría patrones claros pero sutiles en la pérdida de estabilidad mental, permitiendo que el jugador aprenda el sistema sin eliminar la tensión.
