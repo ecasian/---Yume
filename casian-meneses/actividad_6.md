@@ -62,7 +62,3 @@ Esto se genera porque:
 - Tensión acumulativa.
 - Sensación de agencia real.
 Las mecánicas generan dinámicas de gestión y riesgo; estas dinámicas producen emociones coherentes con el survival horror psicológico.
-
-#**REFLEXIÓN FINAL**
-La parte que mejoraría primero sería el sistema de salud mental, asegurando que las distorsiones generen incertidumbre sin volverse frustración arbitraria.
-Para fortalecer la experiencia, definiría patrones claros pero sutiles en la pérdida de estabilidad mental, permitiendo que el jugador aprenda el sistema sin eliminar la tensión.
