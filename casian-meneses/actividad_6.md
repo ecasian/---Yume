@@ -29,8 +29,7 @@ Escapar del campus activando un protocolo de evacuación o alcanzando una salida
 - El mapa se desbloquea conforme se explora y se obtienen recursos o información.
 - Las reglas generan desafío porque obligan a priorizar recursos y asumir consecuencias; no dependen del azar absoluto sino de la gestión estratégica.
 
-# Explica la experiencia buscada.
-      ##¿Qué debe sentir el jugador y por qué esa mecánica lo genera?
+##¿Qué debe sentir el jugador y por qué esa mecánica lo genera?
 El jugador debe sentirse:
 **Frágil, agotado y mentalmente presionado.**
 
@@ -41,8 +40,7 @@ Esto se genera porque:
 - Las decisiones narrativas pueden tener consecuencias irreversibles.
 - El sistema crea conflicto entre opciones, lo que produce ansiedad estratégica en lugar de acción desenfrenada.
 
-# Justifica la coherencia del diseño.
-      ##Explica cómo los elementos formales se relacionan entre sí (MDA).
+##Explica cómo los elementos formales se relacionan entre sí (MDA).
 **Mechanics**
 - Sistema de salud, estamina y salud mental.
 - Inventario limitado.
