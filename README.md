@@ -11,6 +11,6 @@ La materia nos interesa a ambos, aunque hemos tenido diferentes enfoques a lo la
 - **Moreno Razo** ya desarrolló antes un videojuego estando en el campus Manzanillo y parte de otro como parte de una materia sobre el ciclo de vida del software.
 - **Casián Meneses** ha llevado a cabo desarrollo web comercial y desarrollo de una API para la captura de datos específicos de un POS (SoftRestaurant).
 
-## Enlace_carpetas_personales
+## Enlace carpetas personales
 - [Esteban Humberto Casián Meneses](./casian-menenses)
 - [Eli Sebastián Moreno Razo](./moreno-razo)
