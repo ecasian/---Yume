@@ -6,7 +6,7 @@ Como presentación me gustaría mencionar que no somos el típico equipo como se
 - **Esteban Casián:** Me considero alguien dedicado, tengo claros mis intereses a futuro y sé lo que cuesta el estar donde estoy (trabajo a tiempo completo y estudio), haga lo que haga siempre daré lo mejor.
 - **Eli Moreno:** Estoy entusiasmado con esta optativa, considero que parte de lo que quiero hacer en un futuro es ser plenamente un diseñador y desarrollador de videojuegos, y haré lo que haga falta para conseguirlo.
 
-## Intereses_generales
+## Intereses generales
 La materia nos interesa a ambos, aunque hemos tenido diferentes enfoques a lo largo de estos 5 semestres pasados. 
 - **Moreno Razo** ya desarrolló antes un videojuego estando en el campus Manzanillo y parte de otro como parte de una materia sobre el ciclo de vida del software.
 - **Casián Meneses** ha llevado a cabo desarrollo web comercial y desarrollo de una API para la captura de datos específicos de un POS (SoftRestaurant).
