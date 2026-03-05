@@ -1,4 +1,4 @@
-#Lamentum Funebre 
+# Lamentum Funebre 
 
 ## 1. High Concept
 RPG de horror cósmico con exploración narrativa ambientado en un campus universitario atrapado en una dimensión desconocida. El jugador explora el mundo a través de decisiones tipo novela visual, enfrentando combates tácticos por turnos, eventos impredecibles y decisiones morales irreversibles.
