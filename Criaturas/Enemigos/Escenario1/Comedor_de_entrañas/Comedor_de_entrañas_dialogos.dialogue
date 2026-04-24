@@ -1,0 +1,39 @@
+~ Tajo_lateral
+if usos == 1
+	Jugador: (Esa cosa levanta ambos brazos superiores extendiendolos a sus costados) 
+	Jugador: [shake] Aqui viene... 
+elif usos == 2
+	Jugador: (De nuevo, va a hacer ese ataque horizontal...)
+else
+	Jugador: (Debe ser una broma, el mismo movimiento 3 veces solo tengo que agacharme) 
+	Jugador: ¿Qué esperas?
+=> END
+
+~ Grito_de_agonia
+if usos == 1
+	Jugador: (Esa cosa esta vibrando, ¿qué carajos piensa hacer...?)
+elif usos == 2
+	Jugador: (Va a volver a gritar, no hay modo de esquivarlo)
+else 
+	Jugador: Vas a reventar mis timpanos, [shake] YA BASTA! 
+=> END
+
+
+~ Por_la_mitad
+if usos == 1
+	Jugador: (Levanto su brazo sobre su cabeza, [shake] si eso me da me va a partir por la mitad...) 
+elif usos == 2
+	Jugador: (Extiende ambos brazos... pero algo es diferente...)
+else
+	Jugador: (Es bastante rapido pero su golpe vertical se vuelve predecible)
+=> END
+
+
+~ Rapto_viseral
+if usos == 1
+	Jugador: (Viene directo a hacia mi... esto se ve mal...)
+	Jugador: ¡¡NO TE ACERQUES!!
+else
+	Jugador: [shake] ¡¡¡NO VOY A MORIR AQUÍ!!!
+=> END
+

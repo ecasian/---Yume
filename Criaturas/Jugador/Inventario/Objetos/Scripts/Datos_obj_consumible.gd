@@ -1,0 +1,2 @@
+extends Datos_Objetos
+class_name Datos_obj_consumible

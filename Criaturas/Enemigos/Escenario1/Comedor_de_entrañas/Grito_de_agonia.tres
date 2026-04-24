@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Habilidad" format=3 uid="uid://bnkmm7pjks7yo"]
+
+[ext_resource type="Script" uid="uid://cp5wsrxnhhnxk" path="res://Recursos/Habilidad.gd" id="1_aadro"]
+
+[resource]
+script = ExtResource("1_aadro")
+nombre = "Grito de agonia"
+descripcion = "Lanza un grito ensordecedor que causa confusión en sus enemigos."
+danio_base = 10.0
+multiplicador = 1.2
+cantidad_golpes = 4
+ignora_posicion = true
+ruta_dialogo = "res://Criaturas/Enemigos/Escenario1/Comedor_de_entrañas/Comedor_de_entrañas_dialogos.dialogue"
+id_dialogo = "Grito_de_agonia"
+metadata/_custom_type_script = "uid://cp5wsrxnhhnxk"

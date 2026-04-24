@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://2nb7rfxempt8"]
+
+[ext_resource type="Script" uid="uid://b1gx3lfsoho6m" path="res://Escenas/Combate/UI/Scripts/opciones_izq.gd" id="1_umdc0"]
+
+[node name="Opciones_Izq" type="Control" unique_id=1154102513]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_umdc0")
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=722393363]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer" unique_id=472096080]
+layout_mode = 2
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer" unique_id=1953313418]
+layout_mode = 2
+
+[node name="Estado" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=2051945121]
+layout_mode = 2
+text = "Estado"
+
+[node name="Equipo" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1728572082]
+layout_mode = 2
+text = "Equipo"
+
+[node name="Objetos" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=714911194]
+layout_mode = 2
+text = "Objetos"
+
+[connection signal="button_down" from="PanelContainer/MarginContainer/VBoxContainer/Estado" to="." method="_on_mover_button_down"]
+[connection signal="button_down" from="PanelContainer/MarginContainer/VBoxContainer/Equipo" to="." method="_on_equipo_button_down"]
+[connection signal="button_down" from="PanelContainer/MarginContainer/VBoxContainer/Objetos" to="." method="_on_objetos_button_down"]

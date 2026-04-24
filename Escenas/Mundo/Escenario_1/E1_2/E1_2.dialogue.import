@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://cni7gw4vp6nlu"
+path="res://.godot/imported/E1_2.dialogue-75e63e01c5a4088ab10dd939184584a4.tres"
+
+[deps]
+
+source_file="res://Escenas/Mundo/Escenario_1/E1_2/E1_2.dialogue"
+dest_files=["res://.godot/imported/E1_2.dialogue-75e63e01c5a4088ab10dd939184584a4.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,247 @@
+[gd_scene format=3 uid="uid://cb6i6cl1jg6ke"]
+
+[ext_resource type="Script" uid="uid://kh5j6uyilpt3" path="res://Escenas/Combate/Combate.gd" id="1_hs725"]
+[ext_resource type="PackedScene" uid="uid://2nb7rfxempt8" path="res://Escenas/Combate/UI/Opciones_Izq.tscn" id="2_7xh7y"]
+[ext_resource type="Script" uid="uid://c3sle3jxeejh5" path="res://Escenas/Combate/UI.gd" id="2_otl0m"]
+[ext_resource type="PackedScene" uid="uid://cep04xdfls4sf" path="res://Escenas/Combate/UI/Opciones_Dch.tscn" id="3_otl0m"]
+[ext_resource type="PackedScene" uid="uid://cq81elc1rea2j" path="res://Criaturas/Jugador/jugador.tscn" id="4_7xh7y"]
+[ext_resource type="PackedScene" uid="uid://dcjv1uy0o2vcq" path="res://Escenas/Combate/UI/DefensaUI.tscn" id="6_o5gmm"]
+[ext_resource type="PackedScene" uid="uid://byl464rp3axp2" path="res://Escenas/balloon.tscn" id="7_iwty2"]
+[ext_resource type="Script" uid="uid://cp5wsrxnhhnxk" path="res://Recursos/Habilidad.gd" id="8_rq2jp"]
+[ext_resource type="Resource" uid="uid://br8dnnurgtqya" path="res://Criaturas/Jugador/Habilidades/H_Mag/Tritura_huesos.tres" id="9_iwty2"]
+[ext_resource type="Resource" uid="uid://3xb1iw60os62" path="res://Criaturas/Jugador/Habilidades/H_Arma/GolpePerforante.tres" id="11_iwty2"]
+[ext_resource type="Resource" uid="uid://dio071ao65rn8" path="res://Criaturas/Jugador/Habilidades/H_Mag/Lluvia_negra.tres" id="11_pd5h4"]
+[ext_resource type="Resource" uid="uid://bhhv2g3fsat62" path="res://Criaturas/Jugador/Habilidades/H_Arma/GolpeCircular.tres" id="12_pd5h4"]
+[ext_resource type="Resource" uid="uid://bj6bn2opps5js" path="res://Criaturas/Jugador/Habilidades/H_Arma/TajoViseral.tres" id="13_53hce"]
+
+[node name="Combate" type="Node2D" unique_id=1072611711]
+script = ExtResource("1_hs725")
+
+[node name="Fondo" type="CanvasLayer" parent="." unique_id=201891158]
+layer = -1
+
+[node name="Margen Pantalla" type="MarginContainer" parent="Fondo" unique_id=130023602]
+z_as_relative = false
+y_sort_enabled = true
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Fondo" type="TextureRect" parent="Fondo/Margen Pantalla" unique_id=190893500]
+z_index = -1
+layout_mode = 2
+expand_mode = 1
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=1147906950]
+layer = 2
+script = ExtResource("2_otl0m")
+
+[node name="MargenUIStats" type="MarginContainer" parent="UI" unique_id=1535706903]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1.0
+offset_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 800
+theme_override_constants/margin_bottom = 500
+
+[node name="Contenedor" type="VBoxContainer" parent="UI/MargenUIStats" unique_id=815896343]
+layout_mode = 2
+
+[node name="VidaContainer" type="VBoxContainer" parent="UI/MargenUIStats/Contenedor" unique_id=2108058088]
+layout_mode = 2
+
+[node name="VidaLabel" type="Label" parent="UI/MargenUIStats/Contenedor/VidaContainer" unique_id=73527296]
+layout_mode = 2
+text = "Vida"
+
+[node name="BarraVidaJugador" type="ProgressBar" parent="UI/MargenUIStats/Contenedor/VidaContainer" unique_id=647741570]
+layout_mode = 2
+show_percentage = false
+
+[node name="CorduraContainer" type="VBoxContainer" parent="UI/MargenUIStats/Contenedor" unique_id=186970246]
+layout_mode = 2
+
+[node name="CorduraLabel" type="Label" parent="UI/MargenUIStats/Contenedor/CorduraContainer" unique_id=80249428]
+layout_mode = 2
+
+[node name="BarraCordura" type="ProgressBar" parent="UI/MargenUIStats/Contenedor/CorduraContainer" unique_id=67930526]
+layout_mode = 2
+min_value = -100.0
+show_percentage = false
+
+[node name="ContenedorConcentracion" type="HBoxContainer" parent="UI/MargenUIStats/Contenedor" unique_id=470119018]
+layout_mode = 2
+
+[node name="Opciones_Izq" parent="UI" unique_id=1154102513 instance=ExtResource("2_7xh7y")]
+anchors_preset = 4
+anchor_top = 0.5
+anchor_right = 0.0
+anchor_bottom = 0.5
+grow_horizontal = 1
+size_flags_horizontal = 0
+
+[node name="OpcionesDch" parent="UI" unique_id=1756579746 instance=ExtResource("3_otl0m")]
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 0
+
+[node name="PanelDescripcion" type="PanelContainer" parent="UI" unique_id=968560544]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -27.0
+offset_right = 20.0
+offset_bottom = 27.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="UI/PanelDescripcion" unique_id=748271433]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="UI/PanelDescripcion/MarginContainer" unique_id=2045054037]
+layout_mode = 2
+
+[node name="Nombre" type="Label" parent="UI/PanelDescripcion/MarginContainer/VBoxContainer" unique_id=436896740]
+layout_mode = 2
+
+[node name="Descripcion" type="RichTextLabel" parent="UI/PanelDescripcion/MarginContainer/VBoxContainer" unique_id=549694705]
+layout_mode = 2
+
+[node name="Costo" type="Label" parent="UI/PanelDescripcion/MarginContainer/VBoxContainer" unique_id=857568787]
+layout_mode = 2
+
+[node name="MenuIzquierda" type="VBoxContainer" parent="UI" unique_id=78419463]
+visible = false
+z_index = 2
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 400.0
+offset_top = 180.0
+offset_right = 440.0
+offset_bottom = 220.0
+grow_vertical = 2
+
+[node name="Titulo" type="Label" parent="UI/MenuIzquierda" unique_id=1401202322]
+layout_mode = 2
+
+[node name="ListaHabilidades" type="VBoxContainer" parent="UI/MenuIzquierda" unique_id=213628504]
+layout_mode = 2
+
+[node name="MenuDerecha" type="VBoxContainer" parent="UI" unique_id=1161495137]
+visible = false
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -440.0
+offset_top = 180.0
+offset_right = -400.0
+offset_bottom = 220.0
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="Titulo" type="Label" parent="UI/MenuDerecha" unique_id=1092708228]
+layout_mode = 2
+
+[node name="ListaArma" type="VBoxContainer" parent="UI/MenuDerecha" unique_id=2050406453]
+layout_mode = 2
+
+[node name="Turnos_acciones" type="MarginContainer" parent="UI" unique_id=1654478097]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -147.0
+offset_bottom = 79.0
+grow_horizontal = 0
+
+[node name="Panel" type="Panel" parent="UI/Turnos_acciones" unique_id=341840334]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="UI/Turnos_acciones/Panel" unique_id=1746544164]
+layout_mode = 0
+offset_right = 147.0
+offset_bottom = 79.0
+
+[node name="TurnosLabel" type="Label" parent="UI/Turnos_acciones/Panel/VBoxContainer" unique_id=1506736834]
+layout_mode = 2
+text = "Turno:"
+
+[node name="AccionesLabel" type="Label" parent="UI/Turnos_acciones/Panel/VBoxContainer" unique_id=721534599]
+layout_mode = 2
+text = "Acciones:"
+
+[node name="Turnos_defensa" type="MarginContainer" parent="UI" unique_id=1487944635]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -308.0
+offset_top = -616.0
+offset_right = 308.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+
+[node name="Control" type="Control" parent="UI/Turnos_defensa" unique_id=2051953404]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="DefensaUi" parent="UI/Turnos_defensa/Control" unique_id=2003964145 instance=ExtResource("6_o5gmm")]
+visible = false
+layout_mode = 1
+
+[node name="GameOver" type="Control" parent="UI" unique_id=1798669828]
+visible = false
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="UI/GameOver" unique_id=2120489687]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -45.5
+offset_top = -11.5
+offset_right = 45.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Has muerto"
+
+[node name="Dialogue" parent="UI" unique_id=1220526353 instance=ExtResource("7_iwty2")]
+visible = false
+
+[node name="Jugador" parent="." unique_id=2141936126 instance=ExtResource("4_7xh7y")]
+z_index = 2
+position = Vector2(530, 552)
+habilidades_magicas = Array[ExtResource("8_rq2jp")]([ExtResource("9_iwty2"), ExtResource("11_pd5h4")])
+habilidades_arma = Array[ExtResource("8_rq2jp")]([ExtResource("11_iwty2"), ExtResource("12_pd5h4"), ExtResource("13_53hce")])

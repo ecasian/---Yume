@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Habilidad" format=3 uid="uid://dio071ao65rn8"]
+
+[ext_resource type="Script" uid="uid://cp5wsrxnhhnxk" path="res://Recursos/Habilidad.gd" id="1_wwwec"]
+
+[resource]
+script = ExtResource("1_wwwec")
+nombre = "Lluvia negra"
+descripcion = "Absorves el poder esoterico que te rodea y la rediriges en forma de una lluvia de proyectiles que desgarran la carne de los que toca..."
+costo_concentracion = 5
+costo_cordura = 60.0
+turnos_bloqueo = 6
+danio_base = 50.0
+multiplicador = 1.2
+es_aoe = true
+cantidad_golpes = 5
+precision = 85.0
+porcentaje_de_critico = 5.0
+ignora_posicion = true
+metadata/_custom_type_script = "uid://cp5wsrxnhhnxk"

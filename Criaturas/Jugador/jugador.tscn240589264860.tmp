@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cq81elc1rea2j"]
+
+[ext_resource type="Script" uid="uid://b2gdg8jacdwo" path="res://Criaturas/Jugables/jugador.gd" id="1_jo7o5"]
+[ext_resource type="Resource" uid="uid://wons3b5ky71" path="res://Recursos/Personaje_1_stats.tres" id="2_jitk3"]
+
+[node name="Jugador" type="Node2D" unique_id=2141936126]
+script = ExtResource("1_jo7o5")
+stats = ExtResource("2_jitk3")

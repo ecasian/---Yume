@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://cep04xdfls4sf"]
+
+[ext_resource type="Script" uid="uid://y51ewnomku67" path="res://Escenas/Combate/UI/Scripts/opciones_dch.gd" id="1_xk1xe"]
+
+[node name="OpcionesDch" type="Control" unique_id=1756579746]
+layout_mode = 3
+anchor_left = 0.125
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -160.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 0
+script = ExtResource("1_xk1xe")
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=2144468191]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer" unique_id=1048039212]
+layout_mode = 2
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer" unique_id=1989061110]
+layout_mode = 2
+
+[node name="Observar" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=540296775]
+layout_mode = 2
+text = "Observar"
+
+[node name="Hablar" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=177329914]
+layout_mode = 2
+text = "Hablar"
+
+[node name="Huir" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=766457527]
+layout_mode = 2
+text = "Huir"
+
+[connection signal="button_down" from="PanelContainer/MarginContainer/VBoxContainer/Observar" to="." method="_on_observar_button_down"]
+[connection signal="button_down" from="PanelContainer/MarginContainer/VBoxContainer/Hablar" to="." method="_on_hablar_button_down"]
+[connection signal="button_down" from="PanelContainer/MarginContainer/VBoxContainer/Huir" to="." method="_on_huir_button_down"]

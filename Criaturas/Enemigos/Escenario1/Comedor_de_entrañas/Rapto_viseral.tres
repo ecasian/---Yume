@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Habilidad" format=3 uid="uid://y4glq7bdfxj5"]
+
+[ext_resource type="Script" uid="uid://cp5wsrxnhhnxk" path="res://Recursos/Habilidad.gd" id="1_mudwc"]
+
+[resource]
+script = ExtResource("1_mudwc")
+nombre = "Rapto viseral"
+descripcion = "El comedor de entrañas usa sus largas cuchillas para empalarte."
+es_magica = false
+danio_base = 200.0
+multiplicador = 1.5
+precision = 90.0
+porcentaje_de_critico = 5.0
+ignora_posicion = true
+ruta_dialogo = "res://Criaturas/Enemigos/Escenario1/Comedor_de_entrañas/Comedor_de_entrañas_dialogos.dialogue"
+id_dialogo = "Rapto_viseral"
+metadata/_custom_type_script = "uid://cp5wsrxnhhnxk"

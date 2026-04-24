@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Habilidad" format=3 uid="uid://3xb1iw60os62"]
+
+[ext_resource type="Script" uid="uid://cp5wsrxnhhnxk" path="res://Recursos/Habilidad.gd" id="1_mn2ht"]
+
+[resource]
+script = ExtResource("1_mn2ht")
+nombre = "Golpe Perforante"
+descripcion = "Atraviezas al enemigo con una estocada certera"
+costo_concentracion = 1
+turnos_bloqueo = 2
+es_magica = false
+danio_base = 600.0
+multiplicador = 1.1
+cantidad_golpes = 2
+precision = 95.0
+porcentaje_de_critico = 10.0
+ignora_posicion = true
+metadata/_custom_type_script = "uid://cp5wsrxnhhnxk"

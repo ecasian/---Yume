@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Ubicacion" format=3 uid="uid://dri5b2uk4samp"]
+
+[ext_resource type="Script" uid="uid://ckw8uxwamgq77" path="res://Recursos/Ubicacion.gd" id="1_ncbqk"]
+
+[resource]
+script = ExtResource("1_ncbqk")
+nombre_lugar = &"Entrada facultad Psicología"
+id = "E1_4"
+ruta_dialogo = "res://Escenas/Mundo/Escenario_1/E1_4/E1_4.dialogue"
+conexiones = {
+"atras": "E1_2",
+"delante": "E3_1",
+"derecha": "",
+"izquierda": ""
+}
+metadata/_custom_type_script = "uid://ckw8uxwamgq77"

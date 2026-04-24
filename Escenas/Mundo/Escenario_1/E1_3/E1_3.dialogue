@@ -1,0 +1,11 @@
+~ start
+Jugador: Prueba camino E1_3
+- Delante E1_5
+	Jugador: Seguir esta ruta
+	set GameManager.cambiar_ubicacion("E1_5")
+- Izquierda E1_6 Abismo
+	Jugador: camino alternativo
+	set GameManager.cambiar_ubicacion("E1_6")
+- Atras regresar a E1_2
+	set GameManager.cambiar_ubicacion("E1_2")
+=> END

@@ -1,0 +1,8 @@
+~ start
+Jugador: Prueba camino E1_4
+- Delante E3_1
+	Jugador: No puedo ir por aquí aun...
+	=> start
+- Atras regresar a E1_2
+	set GameManager.cambiar_ubicacion("E1_2")
+=> END

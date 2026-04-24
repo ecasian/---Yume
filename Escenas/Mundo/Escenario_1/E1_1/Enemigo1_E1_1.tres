@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="EnemySpawnData" format=3 uid="uid://diw5u8x2p33cg"]
+
+[ext_resource type="Resource" uid="uid://qychbljx2n0d" path="res://Criaturas/Enemigos/Escenario1/Comedor_de_entrañas/Comedor_de_entrañas_Data.tres" id="1_s1801"]
+[ext_resource type="PackedScene" uid="uid://c8pr4gg5p8dt6" path="res://Criaturas/Enemigos/Enemigo.tscn" id="2_mn5g5"]
+[ext_resource type="Script" uid="uid://crkekehe246kb" path="res://Recursos/EnemySpawnData.gd" id="3_ysbkk"]
+
+[resource]
+script = ExtResource("3_ysbkk")
+enemigo = ExtResource("1_s1801")
+escena_enemigo = ExtResource("2_mn5g5")
+posicion = Vector2(300, 324)
+metadata/_custom_type_script = "uid://crkekehe246kb"

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Ubicacion" format=3 uid="uid://c113uc4oe2tvh"]
+
+[ext_resource type="Script" uid="uid://ckw8uxwamgq77" path="res://Recursos/Ubicacion.gd" id="1_qi5d2"]
+
+[resource]
+script = ExtResource("1_qi5d2")
+nombre_lugar = &"Camino a medicina"
+id = "E1_7"
+ruta_dialogo = "res://Escenas/Mundo/Escenario_1/E1_7/E1_7.dialogue"
+conexiones = {
+"atras": "E1_5",
+"delante": "E1_10",
+"derecha": "E1_9",
+"izquierda": ""
+}
+metadata/_custom_type_script = "uid://ckw8uxwamgq77"

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Habilidad" format=3 uid="uid://bhhv2g3fsat62"]
+
+[ext_resource type="Script" uid="uid://cp5wsrxnhhnxk" path="res://Recursos/Habilidad.gd" id="1_2bcp6"]
+
+[resource]
+script = ExtResource("1_2bcp6")
+nombre = "Golpe Circular"
+descripcion = "Golpeas en una media luna todos los objetivos frente a ti"
+costo_cordura = 10.0
+es_magica = false
+danio_base = 40.0
+multiplicador = 1.2
+es_aoe = true
+porcentaje_de_critico = 5.0
+ignora_posicion = true
+metadata/_custom_type_script = "uid://cp5wsrxnhhnxk"

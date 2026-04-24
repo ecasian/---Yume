@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://bgpxhs140rgta"]
+
+[ext_resource type="Texture2D" uid="uid://bwxvambmjhkcc" path="res://Assets/Fondos/LF_facultadTelematica.png" id="1_7j5qa"]
+[ext_resource type="Script" uid="uid://bs3swijrcwkob" path="res://Escenas/Mundo/main.gd" id="1_vxiod"]
+[ext_resource type="Script" uid="uid://qrj4jvoc286w" path="res://Escenas/Mundo/MainUI.gd" id="5_24oxx"]
+[ext_resource type="PackedScene" uid="uid://byl464rp3axp2" path="res://Escenas/balloon.tscn" id="5_57xr5"]
+[ext_resource type="PackedScene" uid="uid://cq81elc1rea2j" path="res://Criaturas/Jugador/jugador.tscn" id="5_cbmem"]
+[ext_resource type="Script" uid="uid://cp5wsrxnhhnxk" path="res://Recursos/Habilidad.gd" id="6_57xr5"]
+[ext_resource type="Resource" uid="uid://br8dnnurgtqya" path="res://Criaturas/Jugador/Habilidades/H_Mag/Tritura_huesos.tres" id="7_rntd3"]
+
+[node name="Main" type="Node2D" unique_id=626953714]
+script = ExtResource("1_vxiod")
+
+[node name="Fondo" type="CanvasLayer" parent="." unique_id=2138323220]
+layer = -1
+
+[node name="Margen Pantalla" type="MarginContainer" parent="Fondo" unique_id=1168800123]
+z_as_relative = false
+y_sort_enabled = true
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Fondo" type="TextureRect" parent="Fondo/Margen Pantalla" unique_id=2147057824]
+z_index = -1
+layout_mode = 2
+texture = ExtResource("1_7j5qa")
+expand_mode = 1
+
+[node name="Dialogue" parent="." unique_id=568202824 instance=ExtResource("5_57xr5")]
+
+[node name="MainUI" type="Node" parent="." unique_id=1504027265]
+script = ExtResource("5_24oxx")
+
+[node name="Jugador" parent="." unique_id=2141936126 instance=ExtResource("5_cbmem")]
+visible = false
+habilidades_magicas = Array[ExtResource("6_57xr5")]([ExtResource("7_rntd3")])

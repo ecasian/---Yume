@@ -1,0 +1,66 @@
+[gd_scene format=3 uid="uid://dl75esj8h6qdx"]
+
+[ext_resource type="Texture2D" uid="uid://cwg38w2sb4jnm" path="res://Assets/Iconos/E_Def.png" id="1_73yy0"]
+[ext_resource type="Script" uid="uid://bvvpx42ht3i1o" path="res://Escenas/Mundo/navegacion_ui.gd" id="1_ortwy"]
+[ext_resource type="Texture2D" uid="uid://i4gle2qut5p3" path="res://Assets/Iconos/E_Izquierda.png" id="2_ortwy"]
+[ext_resource type="Texture2D" uid="uid://cn44svl6fwjre" path="res://Assets/Iconos/E_Derecha.png" id="3_p1e5p"]
+[ext_resource type="Texture2D" uid="uid://b3j5pe7ngcn11" path="res://Assets/Iconos/E_Abajo.png" id="4_0iwui"]
+
+[node name="NavegacionUI" type="Control" unique_id=1121478323]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ortwy")
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=279515429]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(0.08, 0.08)
+
+[node name="GridContainer" type="GridContainer" parent="CenterContainer" unique_id=661822128]
+layout_mode = 2
+columns = 3
+
+[node name="Void1" type="TextureButton" parent="CenterContainer/GridContainer" unique_id=224701555]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Arriba" type="TextureButton" parent="CenterContainer/GridContainer" unique_id=2018435819]
+layout_mode = 2
+texture_normal = ExtResource("1_73yy0")
+
+[node name="Void2" type="TextureButton" parent="CenterContainer/GridContainer" unique_id=120131638]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Izquierda" type="TextureButton" parent="CenterContainer/GridContainer" unique_id=1415224912]
+layout_mode = 2
+texture_normal = ExtResource("2_ortwy")
+
+[node name="Center" type="TextureButton" parent="CenterContainer/GridContainer" unique_id=1125991529]
+layout_mode = 2
+
+[node name="Derecha" type="TextureButton" parent="CenterContainer/GridContainer" unique_id=2104486427]
+layout_mode = 2
+texture_normal = ExtResource("3_p1e5p")
+
+[node name="Void3" type="TextureButton" parent="CenterContainer/GridContainer" unique_id=170245798]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Abajo" type="TextureButton" parent="CenterContainer/GridContainer" unique_id=2065958092]
+layout_mode = 2
+texture_normal = ExtResource("4_0iwui")
+
+[node name="Void4" type="TextureButton" parent="CenterContainer/GridContainer" unique_id=1519585490]
+layout_mode = 2
+mouse_filter = 2
+
+[connection signal="pressed" from="CenterContainer/GridContainer/Arriba" to="." method="_on_arriba_pressed"]
+[connection signal="pressed" from="CenterContainer/GridContainer/Izquierda" to="." method="_on_izquierda_pressed"]
+[connection signal="pressed" from="CenterContainer/GridContainer/Derecha" to="." method="_on_derecha_pressed"]
+[connection signal="pressed" from="CenterContainer/GridContainer/Abajo" to="." method="_on_abajo_pressed"]

@@ -1,0 +1,9 @@
+~ start
+Jugador: Prueba camino E1_6 Abismo
+Jugador: (Encuentro enemigo opcional)
+- Enfrentar 
+	$> GameManager.combate_actual()
+	=> END
+- Atras regresar a E1_3
+	set GameManager.cambiar_ubicacion("E1_3")
+=> END

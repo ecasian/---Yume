@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Medicamentos" format=3 uid="uid://p02pmli4egg8"]
+
+[ext_resource type="Script" uid="uid://6bd7n3tcok1e" path="res://Recursos/medicamentos.gd" id="1_72ryt"]
+
+[resource]
+script = ExtResource("1_72ryt")
+stat = &"Vida_actual"
+valor = 20.0
+afecta_vida = true
+metadata/_custom_type_script = "uid://6bd7n3tcok1e"

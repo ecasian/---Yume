@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Ubicacion" format=3 uid="uid://bltyy5ukdinen"]
+
+[ext_resource type="Script" uid="uid://ckw8uxwamgq77" path="res://Recursos/Ubicacion.gd" id="1_lv07k"]
+
+[resource]
+script = ExtResource("1_lv07k")
+nombre_lugar = &"Camino a cafeteria"
+id = "E1_3"
+ruta_dialogo = "res://Escenas/Mundo/Escenario_1/E1_3/E1_3.dialogue"
+conexiones = {
+"atras": "E1_2",
+"delante": "E1_5",
+"derecha": "",
+"izquierda": "E1_6"
+}
+metadata/_custom_type_script = "uid://ckw8uxwamgq77"

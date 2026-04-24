@@ -1,0 +1,5 @@
+~ start
+Jugador: Prueba camino E1_7 Camino Medicina
+- Atras regresar a E1_5
+	set GameManager.cambiar_ubicacion("E1_5")
+=> END

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CombatData" format=3 uid="uid://y24ofgocos1x"]
+
+[ext_resource type="Script" uid="uid://crkekehe246kb" path="res://Recursos/EnemySpawnData.gd" id="1_mmal5"]
+[ext_resource type="Script" uid="uid://4r7awhag3m20" path="res://Recursos/CombatData.gd" id="1_sx86x"]
+[ext_resource type="Resource" uid="uid://diw5u8x2p33cg" path="res://Escenas/Mundo/Escenario_1/E1_1/Enemigo1_E1_1.tres" id="3_jnho3"]
+[ext_resource type="Resource" uid="uid://d15w5tcaff4jx" path="res://Escenas/Mundo/Escenario_1/E1_1/Enemigo2_E1_1.tres" id="4_b8gmk"]
+
+[resource]
+script = ExtResource("1_sx86x")
+spawns = Array[ExtResource("1_mmal5")]([ExtResource("3_jnho3"), ExtResource("4_b8gmk")])
+metadata/_custom_type_script = "uid://4r7awhag3m20"

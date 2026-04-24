@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EnemigoData" format=3 uid="uid://qychbljx2n0d"]
+
+[ext_resource type="Script" uid="uid://cp5wsrxnhhnxk" path="res://Recursos/Habilidad.gd" id="1_bx7pj"]
+[ext_resource type="Resource" uid="uid://bsypuwxy1m8yu" path="res://Criaturas/Enemigos/Escenario1/Comedor_de_entrañas/Tajo_lateral.tres" id="2_f6xco"]
+[ext_resource type="Script" uid="uid://m3xnpcliroln" path="res://Recursos/EnemigoData.gd" id="2_vnjid"]
+[ext_resource type="Resource" uid="uid://des62uwdfmrie" path="res://Criaturas/Enemigos/Escenario1/Comedor_de_entrañas/Por_la_mitad.tres" id="3_o6g7n"]
+[ext_resource type="Resource" uid="uid://dbwjodb46ujpd" path="res://Criaturas/Enemigos/Escenario1/Comedor_de_entrañas/Comedor_de_entrañas_Stats.tres" id="3_vnjid"]
+[ext_resource type="Resource" uid="uid://y4glq7bdfxj5" path="res://Criaturas/Enemigos/Escenario1/Comedor_de_entrañas/Rapto_viseral.tres" id="4_1w4go"]
+[ext_resource type="Resource" uid="uid://bnkmm7pjks7yo" path="res://Criaturas/Enemigos/Escenario1/Comedor_de_entrañas/Grito_de_agonia.tres" id="4_8tddt"]
+
+[resource]
+script = ExtResource("2_vnjid")
+nombre = "Comedor de entrañas"
+stats = ExtResource("3_vnjid")
+habilidades = Array[ExtResource("1_bx7pj")]([ExtResource("2_f6xco"), ExtResource("3_o6g7n"), ExtResource("4_8tddt")])
+ultimate = Array[ExtResource("1_bx7pj")]([ExtResource("4_1w4go")])
+turnos_para_ultimate = 8
+metadata/_custom_type_script = "uid://m3xnpcliroln"

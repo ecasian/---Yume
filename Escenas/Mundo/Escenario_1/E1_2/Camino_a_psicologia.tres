@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Ubicacion" format=3 uid="uid://d1so7av3w6mrt"]
+
+[ext_resource type="Script" uid="uid://ckw8uxwamgq77" path="res://Recursos/Ubicacion.gd" id="1_bbfmm"]
+
+[resource]
+script = ExtResource("1_bbfmm")
+nombre_lugar = &"Camino a psicología"
+id = "E1_2"
+ruta_dialogo = "res://Escenas/Mundo/Escenario_1/E1_2/E1_2.dialogue"
+conexiones = {
+"atras": "E1_1",
+"delante": "E1_3",
+"derecha": "",
+"izquierda": "E1_4"
+}
+metadata/_custom_type_script = "uid://ckw8uxwamgq77"

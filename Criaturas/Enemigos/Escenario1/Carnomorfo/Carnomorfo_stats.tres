@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Stats" format=3 uid="uid://vp0bpy2yfc4y"]
+
+[ext_resource type="Script" uid="uid://ba45vrh1h0xtl" path="res://Recursos/Stats.gd" id="1_kvcfc"]
+
+[resource]
+script = ExtResource("1_kvcfc")
+Vida_maxima = 2000.0
+Vida_actual = 2000.0
+Cordura_maxima = 0.0
+Cordura_actual = 0.0
+Fuerza = 85
+Af_E = 30
+Res_F = 40
+Res_E = 40
+Velocidad = 20
+metadata/_custom_type_script = "uid://ba45vrh1h0xtl"

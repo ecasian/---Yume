@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Ubicacion" format=3 uid="uid://cwxdumk7yam0l"]
+
+[ext_resource type="Script" uid="uid://ckw8uxwamgq77" path="res://Recursos/Ubicacion.gd" id="1_1hptt"]
+[ext_resource type="Resource" uid="uid://bkptg16paylhe" path="res://Escenas/Mundo/Escenario_1/E1_6/Encuentro1_E1_6.tres" id="1_mb6tm"]
+[ext_resource type="Texture2D" uid="uid://d0u7exklcxe5w" path="res://Assets/Fondos/LF_abismo.png" id="2_qurrt"]
+
+[resource]
+script = ExtResource("1_1hptt")
+nombre_lugar = &"Gran abismo"
+id = "E1_6"
+fondo = ExtResource("2_qurrt")
+ruta_dialogo = "res://Escenas/Mundo/Escenario_1/E1_6/E1_6.dialogue"
+conexiones = {
+"atras": "E1_3",
+"delante": "",
+"derecha": "",
+"izquierda": ""
+}
+combate = ExtResource("1_mb6tm")
+metadata/_custom_type_script = "uid://ckw8uxwamgq77"

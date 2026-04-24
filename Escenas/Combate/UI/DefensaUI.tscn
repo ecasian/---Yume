@@ -1,0 +1,66 @@
+[gd_scene format=3 uid="uid://dcjv1uy0o2vcq"]
+
+[ext_resource type="Script" uid="uid://biopsph2c4vv" path="res://Escenas/Combate/UI/Scripts/defensa_ui.gd" id="1_laq57"]
+[ext_resource type="Texture2D" uid="uid://i4gle2qut5p3" path="res://Assets/Iconos/E_Izquierda.png" id="1_o3es0"]
+[ext_resource type="Texture2D" uid="uid://cwg38w2sb4jnm" path="res://Assets/Iconos/E_Def.png" id="2_laq57"]
+[ext_resource type="Texture2D" uid="uid://cn44svl6fwjre" path="res://Assets/Iconos/E_Derecha.png" id="3_lanhc"]
+[ext_resource type="Texture2D" uid="uid://b3j5pe7ngcn11" path="res://Assets/Iconos/E_Abajo.png" id="4_32u1g"]
+
+[node name="DefensaUi" type="Control" unique_id=2003964145]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_laq57")
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=459024799]
+layout_mode = 0
+offset_right = 3080.0
+offset_bottom = 2052.0
+scale = Vector2(0.2, 0.2)
+
+[node name="GridContainer" type="GridContainer" parent="CenterContainer" unique_id=942746796]
+layout_mode = 2
+columns = 3
+
+[node name="VoidTopI" type="TextureButton" parent="CenterContainer/GridContainer" unique_id=1660903870]
+layout_mode = 2
+
+[node name="Defensa" type="TextureButton" parent="CenterContainer/GridContainer" unique_id=1874200291]
+layout_mode = 2
+texture_normal = ExtResource("2_laq57")
+stretch_mode = 5
+
+[node name="VoidTopD" type="TextureButton" parent="CenterContainer/GridContainer" unique_id=1411779883]
+layout_mode = 2
+
+[node name="Izquierda" type="TextureButton" parent="CenterContainer/GridContainer" unique_id=1733448958]
+layout_mode = 2
+texture_normal = ExtResource("1_o3es0")
+stretch_mode = 5
+
+[node name="VoidMid" type="TextureButton" parent="CenterContainer/GridContainer" unique_id=1914433569]
+layout_mode = 2
+
+[node name="Derecha" type="TextureButton" parent="CenterContainer/GridContainer" unique_id=851538149]
+layout_mode = 2
+texture_normal = ExtResource("3_lanhc")
+stretch_mode = 5
+
+[node name="VoidBotI" type="TextureButton" parent="CenterContainer/GridContainer" unique_id=899175307]
+layout_mode = 2
+
+[node name="Abajo" type="TextureButton" parent="CenterContainer/GridContainer" unique_id=837174929]
+layout_mode = 2
+texture_normal = ExtResource("4_32u1g")
+stretch_mode = 5
+
+[node name="VoidBotD" type="TextureButton" parent="CenterContainer/GridContainer" unique_id=719387167]
+layout_mode = 2
+
+[connection signal="pressed" from="CenterContainer/GridContainer/Defensa" to="." method="_on_defensa_pressed"]
+[connection signal="pressed" from="CenterContainer/GridContainer/Izquierda" to="." method="_on_izquierda_pressed"]
+[connection signal="pressed" from="CenterContainer/GridContainer/Derecha" to="." method="_on_derecha_pressed"]
+[connection signal="pressed" from="CenterContainer/GridContainer/Abajo" to="." method="_on_abajo_pressed"]

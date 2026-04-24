@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Habilidad" format=3 uid="uid://bsypuwxy1m8yu"]
+
+[ext_resource type="Script" uid="uid://cp5wsrxnhhnxk" path="res://Recursos/Habilidad.gd" id="1_kk0yf"]
+
+[resource]
+script = ExtResource("1_kk0yf")
+nombre = "Tajo lateral"
+descripcion = "Usa ambos brazos para lanzar tajos horizontales con sus cuchillas."
+es_magica = false
+danio_base = 40.0
+multiplicador = 1.1
+cantidad_golpes = 2
+posiciones_que_golpea = Array[int]([0, 1, 2])
+ruta_dialogo = "res://Criaturas/Enemigos/Escenario1/Comedor_de_entrañas/Comedor_de_entrañas_dialogos.dialogue"
+id_dialogo = "Tajo_lateral"
+metadata/_custom_type_script = "uid://cp5wsrxnhhnxk"

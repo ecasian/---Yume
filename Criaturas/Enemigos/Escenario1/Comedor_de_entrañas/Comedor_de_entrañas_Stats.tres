@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Stats" format=3 uid="uid://dbwjodb46ujpd"]
+
+[ext_resource type="Script" uid="uid://ba45vrh1h0xtl" path="res://Recursos/Stats.gd" id="1_sxef8"]
+
+[resource]
+script = ExtResource("1_sxef8")
+Vida_maxima = 850.0
+Vida_actual = 850.0
+Cordura_maxima = 0.0
+Cordura_actual = 0.0
+Concentracion_maxima = 0
+Fuerza = 62
+Af_E = 15
+Res_F = 45
+Velocidad = 12
+metadata/_custom_type_script = "uid://ba45vrh1h0xtl"

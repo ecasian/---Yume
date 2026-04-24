@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Stats" format=3 uid="uid://wons3b5ky71"]
+
+[ext_resource type="Script" uid="uid://ba45vrh1h0xtl" path="res://Recursos/Stats.gd" id="1_jdlcr"]
+
+[resource]
+script = ExtResource("1_jdlcr")
+jugador = true
+Vida_maxima = 400.0
+Vida_actual = 400.0
+Concentracion_maxima = 6
+Fuerza = 20
+Af_E = 30
+Res_F = 15
+Res_E = 15
+Velocidad = 15
+Iluminacion = 2
+metadata/_custom_type_script = "uid://ba45vrh1h0xtl"

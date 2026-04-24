@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Escenario" format=3 uid="uid://bov22gsckdiy8"]
+
+[ext_resource type="Script" uid="uid://ckw8uxwamgq77" path="res://Recursos/Ubicacion.gd" id="1_4rmp6"]
+[ext_resource type="Resource" uid="uid://cu8cahl58dpu5" path="res://Escenas/Mundo/Escenario_1/E1_1/Entrada_Principal.tres" id="2_xhe4u"]
+[ext_resource type="Resource" uid="uid://d1so7av3w6mrt" path="res://Escenas/Mundo/Escenario_1/E1_2/Camino_a_psicologia.tres" id="3_kbpnv"]
+[ext_resource type="Script" uid="uid://bipxar7ikshb5" path="res://Recursos/Escenario.gd" id="4_rrkr0"]
+[ext_resource type="Resource" uid="uid://dri5b2uk4samp" path="res://Escenas/Mundo/Escenario_1/E1_4/Entrada_a_piscologia.tres" id="4_vwbjv"]
+[ext_resource type="Resource" uid="uid://bltyy5ukdinen" path="res://Escenas/Mundo/Escenario_1/E1_3/Camino_a_cafeteria.tres" id="5_12dfq"]
+[ext_resource type="Resource" uid="uid://c113uc4oe2tvh" path="res://Escenas/Mundo/Escenario_1/E1_7/Camino_a_medicina.tres" id="6_ipm4u"]
+[ext_resource type="Resource" uid="uid://c7f586bx82xay" path="res://Escenas/Mundo/Escenario_1/E1_5/Cafeteria.tres" id="7_pj2kk"]
+[ext_resource type="Resource" uid="uid://cwxdumk7yam0l" path="res://Escenas/Mundo/Escenario_1/E1_6/Gran_abismo.tres" id="8_3it5x"]
+
+[resource]
+script = ExtResource("4_rrkr0")
+ubicacion_inicial = "E1_1"
+lista_ubicaciones = Array[ExtResource("1_4rmp6")]([ExtResource("2_xhe4u"), ExtResource("3_kbpnv"), ExtResource("4_vwbjv"), ExtResource("5_12dfq"), ExtResource("6_ipm4u"), ExtResource("7_pj2kk"), ExtResource("8_3it5x")])
+metadata/_custom_type_script = "uid://bipxar7ikshb5"

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Ubicacion" format=3 uid="uid://cu8cahl58dpu5"]
+
+[ext_resource type="Resource" uid="uid://y24ofgocos1x" path="res://Escenas/Mundo/Escenario_1/E1_1/Encuentro1_E1_1.tres" id="1_00kda"]
+[ext_resource type="Texture2D" uid="uid://bwxvambmjhkcc" path="res://Assets/Fondos/LF_facultadTelematica.png" id="1_xh27m"]
+[ext_resource type="Script" uid="uid://ckw8uxwamgq77" path="res://Recursos/Ubicacion.gd" id="2_00kda"]
+
+[resource]
+script = ExtResource("2_00kda")
+nombre_lugar = &"Entrada Principal"
+id = "E1_1"
+fondo = ExtResource("1_xh27m")
+ruta_dialogo = "res://Escenas/Mundo/Escenario_1/E1_1/E1_1.dialogue"
+conexiones = {
+"atras": "E0_1",
+"delante": "",
+"derecha": "E2_1",
+"izquierda": "E1_2"
+}
+combate = ExtResource("1_00kda")
+metadata/_custom_type_script = "uid://ckw8uxwamgq77"

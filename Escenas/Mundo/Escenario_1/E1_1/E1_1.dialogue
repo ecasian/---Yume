@@ -1,0 +1,16 @@
+~ start
+Jugador: (¿Qué camino deberia tomar?)
+- Izquierda "Camino a Psicología"
+	Jugador: Entonces sera por aquí 
+	set GameManager.cambiar_ubicacion("E1_2")
+- Derecha "No disponible" 
+	No puedo ir por aquí aun... algo se interpone
+	- Regresar
+		Mejor no lo intento
+		=> start
+	- ¿Qué más da?
+		$> GameManager.combate_actual()
+		=> END
+- Esperar 
+	Ya ha pasado bastante tiempo... => start
+=> END

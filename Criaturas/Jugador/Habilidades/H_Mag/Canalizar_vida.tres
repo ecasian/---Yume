@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Habilidad" format=3 uid="uid://doro8tsc0ca3v"]
+
+[ext_resource type="Script" uid="uid://cp5wsrxnhhnxk" path="res://Recursos/Habilidad.gd" id="1_wfym4"]
+
+[resource]
+script = ExtResource("1_wfym4")
+nombre = "Canalizar vida"
+descripcion = "Evocas energia esoterica que restaura tu vitalidad a cambio de tu sanidad mental"
+costo_concentracion = 3
+costo_cordura = 40.0
+turnos_bloqueo = 5
+es_cura = true
+danio_base = 80.0
+multiplicador = 1.2
+ignora_posicion = true
+metadata/_custom_type_script = "uid://cp5wsrxnhhnxk"
